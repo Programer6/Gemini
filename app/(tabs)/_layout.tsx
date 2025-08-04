@@ -1,15 +1,17 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
+import { useTheme } from '@react-navigation/native';
 import { Tabs } from 'expo-router';
 import React from 'react';
 
 const TabsLayout = () => {
+    const { colors } = useTheme();
   return (
     <Tabs
         screenOptions={{
-            tabBarActiveTintColor: "blue",
-            tabBarInactiveTintColor: "black",
+            tabBarActiveTintColor: colors.primary,
+            tabBarInactiveTintColor: colors.textMuted,
             tabBarStyle: {
-                backgroundColor: "lightblue",
+                backgroundColor: colors.surface,
                 borderTopWidth: 1,
                 height: 90,
                 borderTopColor: "darkblue",
