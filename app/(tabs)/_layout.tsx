@@ -21,6 +21,7 @@ const TabsLayout = () => {
                 fontSize: 12,
                 fontWeight: "800",
             },
+            headerShown: false,
         }}
         >
             <Tabs.Screen

@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <View style={style.container}>
-      <Text style={style.heading}>pika will be a crow</Text>
+      <Text style={style.heading}>crow</Text>
       </View>
   );
 }
