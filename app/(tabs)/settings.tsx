@@ -1,12 +1,23 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import { StyleSheet, Text, View } from "react-native";
+export default function Index() {
 
-const SettingScreen => {
   return (
-    <View>
-      <Text>SettingsScreen</Text>
-    </View>
-  )
+    <View style={style.container}>
+      <Text style={style.heading}>pika will be a crow</Text>
+      </View>
+  );
 }
 
-export defSult gScreen 
+const style = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  heading: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "darkblue",
+  },
+});
+
